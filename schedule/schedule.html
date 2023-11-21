@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sch.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggle()">Monday<i class="arrow up"></i> <i
+                class="arrow down"></i></button>
+
+        <div id="dropdownContent" class="dropdown-content">
+            <table class="table-content">
+                <th></th>
+                <th></th>
+
+                <tr>
+                    <td>1st period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>2nd period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>3rd period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>4th period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>5th period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>6th period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>7th period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>8th period</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+                <tr>
+                    <td>Independent Study</td>
+                    <td>8:30 — 9:15</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript">
+        function toggle() {
+            var x = document.getElementById('dropdownContent');
+
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            }
+            else {
+                x.style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
